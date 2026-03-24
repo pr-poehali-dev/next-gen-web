@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "OPTIONS preflight",
+      "method": "OPTIONS",
+      "path": "/",
+      "expectedStatus": 200
+    },
+    {
+      "name": "Отправка гарантийного талона",
+      "method": "POST",
+      "path": "/",
+      "body": {"full_name": "Иван Иванов", "address": "г. Москва, ул. Ленина, д. 1", "purchase_date": "2024-03-01", "model": "Диван Комфорт-3"},
+      "expectedStatus": 200
+    },
+    {
+      "name": "Ошибка без полей",
+      "method": "POST",
+      "path": "/",
+      "body": {"full_name": "Иван"},
+      "expectedStatus": 400
+    }
+  ]
+}

@@ -1,4 +1,5 @@
 {
+  "submit-warranty": "https://functions.poehali.dev/8bac1c1b-d190-422d-bde9-e8ffa06d205d",
   "get-leads": "https://functions.poehali.dev/0a421c6f-ce20-4225-b628-7f8745497492",
   "submit-lead": "https://functions.poehali.dev/73974f70-7270-4f9f-9a2d-b93333c1b965"
 }
